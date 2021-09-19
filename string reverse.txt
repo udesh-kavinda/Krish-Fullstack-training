@@ -1,0 +1,15 @@
+
+public class Reverse;
+
+
+String sentence = "apple";
+String reverse;
+Char c[] =sentence.toCharArray();
+Char r[] = new Char[sentence.lenth()];
+for(int i=sentence.lenth();i<=1;i--){
+
+  r[i-1]=c[(sentence.lenth())-i];
+
+} 
+
+reverse = Array.toString(r);
