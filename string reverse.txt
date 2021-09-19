@@ -1,6 +1,7 @@
 
 public class Reverse;
 
+public static void main (Sring args[]){
 
 String sentence = "apple";
 String reverse;
@@ -13,3 +14,5 @@ for(int i=sentence.lenth();i<=1;i--){
 } 
 
 reverse = Array.toString(r);
+
+}
