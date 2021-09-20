@@ -1,15 +1,15 @@
 
 public class Reverse;
 
-public static void main (Sring args[]){
+public static void main (String args[]){
 
 String sentence = "apple";
 String reverse;
 Char c[] =sentence.toCharArray();
-Char r[] = new Char[sentence.lenth()];
-for(int i=sentence.lenth();i<=1;i--){
+Char r[] = new Char[sentence.length()];
+for(int i=sentence.length();i>=1;i--){
 
-  r[i-1]=c[(sentence.lenth())-i];
+  r[i-1]=c[(sentence.length())-i];
 
 } 
 
