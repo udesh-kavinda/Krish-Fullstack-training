@@ -5,8 +5,8 @@ public static void main (String args[]){
 
 String sentence = "apple";
 String reverse;
-Char c[] =sentence.toCharArray();
-Char r[] = new Char[sentence.length()];
+char c[] =sentence.toCharArray();
+char r[] = new char[sentence.length()];
 for(int i=sentence.length();i>=1;i--){
 
   r[i-1]=c[(sentence.length())-i];
